@@ -7,7 +7,7 @@ class App extends React.Component {
   state = { images: [] };
 
   componentDidMount() {
-    this.onSearchSubmit(car);
+    this.onSearchSubmit("car");
   }
 
   onSearchSubmit = async (term) => {
